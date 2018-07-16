@@ -1,0 +1,188 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+    body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("bac.jpg");
+    background-position: center;
+    font-family: Georgia, times, serif;
+    line-height: 1.4em;
+    margin: 0px;}
+    .wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;}
+    header {
+    height: 160px;
+    background-position-x: right;
+    
+    background-image: url(COVER.png);
+    
+   background-repeat: no-repeat;
+   }
+    /* Dropdown Button */
+.dropbtn {
+    background-color:  #72a5bd;
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #72a5bd ;
+} 
+   #me{
+       border-radius: 350px;
+       border-style: ridge;
+   }
+   #jashn{
+       display: none;
+   }
+    h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;}
+    nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #72a5bd;
+    height: 30px;}
+    nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
+    nav li {
+    display: inline;
+    margin-right: 40px;}
+    nav li a {
+       color: #ffffff;}
+    nav li a:hover, nav li a.current {
+    color: #000000;}
+    section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;}
+    section.Engr {
+        float: left;
+        width: 659px;
+border-right: 1px solid #eeeeee;}
+        
+    article {
+    clear: both;
+    overflow: auto;
+    width: 100%;}
+    hgroup {
+    margin-top:40px;}
+    #Engr {
+        float: left;
+        width: 600px;
+        height: 50%;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #eeeeee;}
+    
+    
+    figure {
+    float: left;
+    width: 290px;
+    height: 270px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;}
+    figcaption {
+    font-size: 90%;
+    text-align: left;}
+    aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;}
+    aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;}
+    aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;}
+    a {
+    color: #fc0a0acb;
+
+    text-decoration: none;}
+    h1, h2, h3 {
+    font-weight: normal;}
+    h2 {
+       margin: 10px 0px 5px 0px;
+    padding: 0px;}
+    h3 {
+    margin: 0px 0px 10px 0px;
+    color: #fc0a0acb;}
+    aside h2 {
+    padding: 30px 0px 10px 0px;
+    
+}
+    footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;}
+    button{
+       
+       
+       border: 0px;
+       background-color: white;
+           border-radius: 230px;
+   }
+   figure.nohay {
+    float: left;
+    width: 290px;
+    height: 850px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;}
+    figure.naats {
+        float: left;
+        width: 290px;
+        height: 700px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #eeeeee;}
+    
+    #sider{
+        float: right;
+        opacity:0;
+
+    }
